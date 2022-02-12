@@ -379,6 +379,43 @@
                     <use href="./images/icons.svg#icon-Vector"></use>
                 </svg>
             </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="modal-form">
+                <div class="form-field">
+                    <label class="modal-label" for="user-name">Имя</label>
+                        <input 
+                            type="text" 
+                            name="user-name" 
+                            class="modal-input" 
+                        />
+                </div>
+                <div class="form-field">
+                    <label class="modal-label" for="user-tel">Телефон</label>
+                        <input 
+                            type="tel" 
+                            name="user-tel" 
+                            class="modal-input" 
+                        />  
+                </div>
+                <div class="form-field">
+                    <label class="modal-label" for="user-email">Почта</label>
+                        <input 
+                            type="email" 
+                            name="user-email" 
+                            class="modal-input" 
+                        />
+                </div>
+                <div class="form-field">
+                    <label class="modal-label" for="user-text">Комментарий</label>
+                        <textarea 
+                            name="user-text" 
+                            id="user-text" 
+                            cols="30" rows="10"
+                            class="modal-text" 
+                            placeholder="Введите текст"
+                        ></textarea>
+                </div>
+            </form>
         </div>
     </div>
     <script src="./js/modal.js"></script>
