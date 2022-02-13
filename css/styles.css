@@ -17,7 +17,18 @@ button{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -483,6 +494,47 @@ a {
 .footer-icon{
     fill: currentColor;
 }
+.subscription-text{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    margin-left: 93px;
+}
+.email-input{
+    width: 358px;
+    height: 50px;
+    left: 815px;
+    top: 2787px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    margin-left: 93px;
+    color: #FFFFFF;
+    outline: none;
+}
+.subscription-btn{
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    border-radius: 4px;
+    border-color: transparent;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.subscription-btn-icon{
+    width: 24px;
+    height: 24px;
+    fill: #FFFFFF;
+    
+}
 /*-----portfolio control-----*/
 .gallery{
     padding-top: 94px;
@@ -701,6 +753,48 @@ a {
     color: rgba(117, 117, 117, 0.5);
 
 }
+.modal-check-text{
+    font-size: 14px;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.modal-check-text span{
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-check-icon{
+    fill: transparent;
+}
+.modal-check:checked + .modal-check-text > .modal-span-text{
+    background-color: #2196F3;
+    border: none;
+
+}
+.modal-check:checked + .modal-check-text svg{
+    fill: #FFFFFF;
+}
+.modal-text-link{
+    color: #2196F3;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+/*.modal-check-text::before{
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    margin-right: 7px;
+
+}*/
 .modal-btn-conteiner{
     text-align: center;
 }

@@ -370,6 +370,22 @@
                         </li>
                     </ul>
             </div>
+            <div class="subscription-email">
+                <p class="subscription-text">Подпишитесь на рассылку</p>
+                <div class="subscription-email-form">
+                    <input 
+                        type="email" 
+                        name="email" 
+                        id="email" 
+                        class="email-input"
+                        placeholder="E-mail">
+                        <button type="submit" class="subscription-btn">Подписаться
+                            <svg class="subscription-btn-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                </div>
+            </div>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -429,6 +445,20 @@
                             class="modal-text" 
                             placeholder="Введите текст"
                         ></textarea>
+                        <div class="form-field">
+                            <input 
+                                type="checkbox" 
+                                class="modal-check visually-hidden"
+                                id="modal-check"
+                                name="modal-check"
+                            />
+                            <label for="modal-check" class="modal-check-text"
+                            ><span class="modal-span-text">
+                                <svg class="modal-check-icon" width="16" height="15">
+                                    <use href="./images/icons.svg#icon-check"></use>
+                                </svg>
+                            </span> Соглашаюсь с рассылкой и принимаю <a class="modal-text-link" href="">Условия договора</a></label>
+                        </div>
                 </div>
                 <div class="modal-btn-conteiner">
                     <button class="modal-btn" type="submit">Отправить</button>
