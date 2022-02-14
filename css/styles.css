@@ -519,6 +519,7 @@ a {
     margin-left: 93px;
     color: #FFFFFF;
     outline: none;
+    padding-left: 16px;
 }
 .subscription-btn{
     width: 200px;
@@ -526,14 +527,16 @@ a {
     background: #2196F3;
     border-radius: 4px;
     border-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
-    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 1.88;
 }
 .subscription-btn-icon{
-    width: 24px;
-    height: 24px;
     fill: #FFFFFF;
-    
+    margin-top: 2px;
 }
 /*-----portfolio control-----*/
 .gallery{
@@ -696,6 +699,7 @@ a {
 }
 .form-field{
     margin-bottom: 10px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .modal-label{
     font-weight: normal;
@@ -759,6 +763,7 @@ a {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+    margin-left: 12px;
 }
 .modal-check-text span{
     width: 16px;
@@ -786,15 +791,6 @@ a {
     margin-left: 5px;
     text-decoration: underline;
 }
-/*.modal-check-text::before{
-    content: '';
-    width: 16px;
-    height: 15px;
-    border: 2px solid #212121;
-    border-radius: 2px;
-    margin-right: 7px;
-
-}*/
 .modal-btn-conteiner{
     text-align: center;
 }
